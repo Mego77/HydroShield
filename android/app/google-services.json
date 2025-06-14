@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "80017196203",
+    "project_id": "hydrosheild-ec4b0",
+    "storage_bucket": "hydrosheild-ec4b0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80017196203:android:b70fda9a162f63e657e3ee",
+        "android_client_info": {
+          "package_name": "com.example.new_gg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80017196203-2iasqvip4i3lqsvukcf2b1qg4eukri2c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.new_gg",
+            "certificate_hash": "433c4c6462a44fc85e5c0335909b03af9ed444c8"
+          }
+        },
+        {
+          "client_id": "80017196203-6hoavh9873bbh7m5opgdpoe6erfgb0bu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1oo-W7KGUtzDo8QZeZgvk2FW1_0YiuU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80017196203-6hoavh9873bbh7m5opgdpoe6erfgb0bu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80017196203-dnsal413j55rmpde0ermcsm3ijs9bgfp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.newGg"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80017196203:android:237b5e2848a207fe57e3ee",
+        "android_client_info": {
+          "package_name": "com.example.weather_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80017196203-6hoavh9873bbh7m5opgdpoe6erfgb0bu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1oo-W7KGUtzDo8QZeZgvk2FW1_0YiuU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80017196203-6hoavh9873bbh7m5opgdpoe6erfgb0bu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80017196203-dnsal413j55rmpde0ermcsm3ijs9bgfp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.newGg"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
