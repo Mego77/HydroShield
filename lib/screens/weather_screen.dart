@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:ui';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
@@ -244,8 +245,11 @@ class WeatherContent extends StatelessWidget {
           FutureBuilder<double>(
             future: weatherProvider.getFloodPrediction(currentWeatherData),
             builder: (context, snapshot) {
-              final floodPrediction =
-                  snapshot.data?.toStringAsFixed(1) ?? '0.0';
+             final floodPrediction =
+             snapshot.data != null ? ((snapshot.data as double) * 100).toStringAsFixed(1) : '0.0';
+
+              // print('📦 Snapshot Data:\n${jsonEncode(snapshot.data)}');
+
               return Column(
                 children: [
                   Row(
