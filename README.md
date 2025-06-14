@@ -22,3 +22,12 @@ The Predict page provides a three-day forecast for Alexandria, displaying the ex
 
 
 <img src="https://github.com/user-attachments/assets/8bd9721b-b86b-405e-9d65-7de66e379a7b" width="300" height="600">
+
+
+
+## Flood Status Page
+This page displays the historical records of flood reports submitted by users. Each entry includes the date, location (city and country), number of flood reports (votes), and timestamps for when the entry was created or last updated. It also contains collapsible sections for detailed prediction data and weather conditions on that day. This feature helps build crowdsourced historical flood data, supporting trend analysis and long-term model improvements.
+
+
+<img src="https://github.com/user-attachments/assets/2179cffc-c4fe-4ba5-9bea-9e3a7211c9e7" width="300" height="600">
+
