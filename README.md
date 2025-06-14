@@ -1,6 +1,6 @@
 # HydroShield 
 
-###Mobile-Based AI-Powered Flood Prediction & Alert System
+### Mobile-Based AI-Powered Flood Prediction & Alert System
 HydroShield is a mobile application that provides real-time weather updates and flood risk predictions, focusing on vulnerable areas like Alexandria, Egypt. It uses a machine learning model (Random Forest with 92% accuracy) and real-time environmental data from the OpenWeather API to estimate flood risks.
 
 Built with Flutter and Firebase, the app includes features like live alerts, daily forecasts, community reporting, and bilingual support (English/Arabic). HydroShield aims to improve early warning systems and help users stay safe and prepared.
