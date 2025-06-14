@@ -1,6 +1,6 @@
-# new_gg
+# HydroShield 
 
-A new Flutter project.
+Mobile-Based AI-Powered Flood Prediction & Alert System
 
 ## Getting Started
 
