@@ -2,15 +2,8 @@
 
 Mobile-Based AI-Powered Flood Prediction & Alert System
 
-## Getting Started
+## Home Page 
 
-This project is a starting point for a Flutter application.
+![Image](https://github.com/user-attachments/assets/ff8fb706-457a-4dbf-9345-b14a9ff3622c)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
