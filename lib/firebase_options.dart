@@ -50,38 +50,40 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyD1oo-W7KGUtzDo8QZeZgvk2FW1_0YiuU4',
-    appId: '1:80017196203:android:237b5e2848a207fe57e3ee',
-    messagingSenderId: '80017196203',
-    projectId: 'hydrosheild-ec4b0',
-    storageBucket: 'hydrosheild-ec4b0.firebasestorage.app',
+    apiKey: 'AIzaSyCIt4JZc-CihVltP3gZtcP59h4LlIciA6o',
+    appId: '1:413054055520:android:91babad9af1050dab0ff05',
+    messagingSenderId: '413054055520',
+    projectId: 'hydroshield1-f336f',
+    storageBucket: 'hydroshield1-f336f.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAWQ6XBfhqkTZi1LUH1866bURuH9nynAxM',
-    appId: '1:80017196203:ios:6210baefb7d0205257e3ee',
-    messagingSenderId: '80017196203',
-    projectId: 'hydrosheild-ec4b0',
-    storageBucket: 'hydrosheild-ec4b0.firebasestorage.app',
-    iosBundleId: 'com.example.weatherApp',
+    apiKey: 'AIzaSyBwaSLa79HIBtwOg6P1APkJqg-2vgvMBjA',
+    appId: '1:413054055520:ios:1251e726d641759db0ff05',
+    messagingSenderId: '413054055520',
+    projectId: 'hydroshield1-f336f',
+    storageBucket: 'hydroshield1-f336f.firebasestorage.app',
+    iosClientId: '413054055520-hico0oovv5dn4bdca4uhtvv55g9up5bt.apps.googleusercontent.com',
+    iosBundleId: 'com.example.newGg',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAWQ6XBfhqkTZi1LUH1866bURuH9nynAxM',
-    appId: '1:80017196203:ios:6210baefb7d0205257e3ee',
-    messagingSenderId: '80017196203',
-    projectId: 'hydrosheild-ec4b0',
-    storageBucket: 'hydrosheild-ec4b0.firebasestorage.app',
-    iosBundleId: 'com.example.weatherApp',
+    apiKey: 'AIzaSyBwaSLa79HIBtwOg6P1APkJqg-2vgvMBjA',
+    appId: '1:413054055520:ios:1251e726d641759db0ff05',
+    messagingSenderId: '413054055520',
+    projectId: 'hydroshield1-f336f',
+    storageBucket: 'hydroshield1-f336f.firebasestorage.app',
+    iosClientId: '413054055520-hico0oovv5dn4bdca4uhtvv55g9up5bt.apps.googleusercontent.com',
+    iosBundleId: 'com.example.newGg',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyC99jA6FF0rZ3bMSdKX7-ZqyfH6Yx403vw',
-    appId: '1:80017196203:web:0a2430dd8b1b2edb57e3ee',
-    messagingSenderId: '80017196203',
-    projectId: 'hydrosheild-ec4b0',
-    authDomain: 'hydrosheild-ec4b0.firebaseapp.com',
-    storageBucket: 'hydrosheild-ec4b0.firebasestorage.app',
+    apiKey: 'AIzaSyBKesg7uYSyr6Z8AjwVsjsBoh700Dd9K6M',
+    appId: '1:413054055520:web:9726ee0a4ce9b987b0ff05',
+    messagingSenderId: '413054055520',
+    projectId: 'hydroshield1-f336f',
+    authDomain: 'hydroshield1-f336f.firebaseapp.com',
+    storageBucket: 'hydroshield1-f336f.firebasestorage.app',
   );
 
 }

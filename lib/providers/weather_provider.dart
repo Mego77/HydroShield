@@ -189,7 +189,23 @@ class WeatherProvider with ChangeNotifier {
     }
   }
 
+  String _formattedDate() {
+  final now = DateTime.now();
+  return '${now.day}-${now.month}-${now.year}';
+}
+
   Future<void> _fetchAlexandriaWeather() async {
+  final String docId = _formattedDate();
+  final docRef = FirebaseFirestore.instance
+      .collection('weather_daily')
+      .doc(docId);
+
+  final docSnapshot = await docRef.get();
+
+  if (docSnapshot.exists) {
+    _weatherData = docSnapshot.data();
+    
+  } else {
     try {
       final response = await http.get(Uri.parse(
         'https://api.openweathermap.org/data/2.5/forecast?'
@@ -207,11 +223,15 @@ class WeatherProvider with ChangeNotifier {
       }
 
       _weatherData = data;
+
+      await docRef.set(data);
+
     } catch (e) {
       debugPrint('Weather fetch error: $e');
       rethrow;
     }
   }
+}
 
   Future<void> refreshLocation() async {
     await _fetchLocation();
