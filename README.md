@@ -31,3 +31,10 @@ This page displays the historical records of flood reports submitted by users. E
 
 <img src="https://github.com/user-attachments/assets/2179cffc-c4fe-4ba5-9bea-9e3a7211c9e7" width="300" height="600">
 
+
+
+## Alert Notification
+Displays a daily message greeting the user with the current flood risk level, Highlights low-risk days with a positive tone to reassure users and Helps promote awareness and preparedness through subtle daily updates.
+
+<img src="https://github.com/user-attachments/assets/982fb7b7-c77e-4cfe-8b15-8e1799628bea" width="300" height="600">
+
