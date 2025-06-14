@@ -12,7 +12,7 @@ The Home Page provides users with a quick overview of current weather conditions
 
 
 
-<img src="https://github.com/user-attachments/assets/ff8fb706-457a-4dbf-9345-b14a9ff3622c" width="300" height="600">
+<img src="https://github.com/user-attachments/assets/ff8fb706-457a-4dbf-9345-b14a9ff3622c" width="275" height="556">
 
 
 
@@ -21,7 +21,7 @@ The Predict page provides a three-day forecast for Alexandria, displaying the ex
 
 
 
-<img src="https://github.com/user-attachments/assets/8bd9721b-b86b-405e-9d65-7de66e379a7b" width="300" height="600">
+<img src="https://github.com/user-attachments/assets/8bd9721b-b86b-405e-9d65-7de66e379a7b" width="275" height="556">
 
 
 
