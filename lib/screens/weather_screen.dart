@@ -33,9 +33,7 @@ class WeatherScreen extends StatelessWidget {
         appBar: AppBar(
           title: Consumer<WeatherProvider>(
             builder: (context, weatherProvider, _) => Text(
-              weatherProvider.cityName != null
-                  ? '${'weather_app'.tr()} - ${weatherProvider.cityName}'
-                  : 'weather_app'.tr(),
+              'HydroShield',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: isDark

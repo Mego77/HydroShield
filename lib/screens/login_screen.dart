@@ -146,7 +146,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           ),
                           const SizedBox(height: 20),
                           Text(
-                            'weather_app'.tr(),
+                            'HydroShield',
                             style: theme.textTheme.headlineMedium?.copyWith(
                               fontWeight: FontWeight.bold,
                               color: isDarkMode ? Colors.white : Colors.black87,
